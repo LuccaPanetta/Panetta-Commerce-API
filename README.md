@@ -1,6 +1,6 @@
-# 🛒 Panetta HW - E-commerce de Hardware High-End
+# 🛒 Panetta HW - E-commerce de Hardware 
 
-**Panetta HW** es una plataforma de comercio electrónico **Full-Stack** especializada en componentes de hardware de alto rendimiento. Este proyecto demuestra la integración de una arquitectura moderna basada en microservicios, gestión de estado asíncrona en el frontend y una API robusta con autenticación JWT y permisos jerárquicos.
+**Panetta HW** es una plataforma de comercio electrónico **Full-Stack** especializada en componentes de hardware. Este proyecto demuestra la integración de una arquitectura moderna basada en microservicios, gestión de estado asíncrona en el frontend y una API robusta con autenticación JWT y permisos jerárquicos.
 
 ---
 
@@ -10,7 +10,7 @@
 * **Gestión de Stock Transaccional**: Algoritmo en el backend que descuenta automáticamente las unidades del inventario al confirmar una compra satisfactoria.
 * **Historial de Pedidos Detallado**: Interfaz personalizada que recupera compras pasadas mediante consultas relacionales, mostrando nombres de productos y precios históricos.
 * **Panel Administrativo**: Modo administrador integrado que permite la edición dinámica de precios, nombres y control de stock directamente desde la UI.
-* **Diseño Moderno (Gamer Style)**: Interfaz diseñada con **Tailwind CSS** enfocada en el "Dark Mode", con feedback visual de carga y animaciones fluidas.
+* **Diseño Moderno**: Interfaz diseñada con **Tailwind CSS**, con feedback visual de carga y animaciones fluidas.
 
 ---
 
@@ -32,7 +32,7 @@
 
 ## 📦 Instalación y Configuración
 
-Sigue estos pasos para ejecutar el proyecto en tu entorno local:
+Seguí estos pasos para ejecutar el proyecto en tu entorno local:
 
 ### 1. Clonar el Repositorio
 ```bash
@@ -41,13 +41,13 @@ cd Panetta-Commerce-API
 ```
 
 ### 2. Levantar el Backend (Docker)
-Asegúrate de tener Docker instalado y ejecuta el siguiente comando en la raíz del proyecto:
+Fijate de tener Docker instalado y ejecutá el siguiente comando en la carpeta backend:
 ```bash
 docker-compose up --build
 ```
 
 ### 3. Configurar y Levantar el Frontend
-Abre una nueva terminal en la carpeta del frontend para iniciar la interfaz de usuario con Vite:
+Abre una nueva terminal para iniciar la interfaz de usuario con Vite:
 ```bash
 cd frontend
 npm install
