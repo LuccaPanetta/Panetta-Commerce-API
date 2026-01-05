@@ -38,11 +38,13 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 ```bash
 git clone [https://github.com/LuccaPanetta/Panetta-Commerce-API.git](https://github.com/LuccaPanetta/Panetta-Commerce-API.git)
 cd Panetta-Commerce-API
+```
 
 ### 2. Levantar el Backend (Docker)
 Asegúrate de tener Docker instalado y ejecuta el siguiente comando en la raíz del proyecto:
 ```bash
 docker-compose up --build
+```
 
 ### 3. Configurar y Levantar el Frontend
 Abre una nueva terminal en la carpeta del frontend para iniciar la interfaz de usuario con Vite:
